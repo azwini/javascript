@@ -2,20 +2,20 @@
 
 // Basic JavaScript: Compound Assignment With Augmented Addition
 
-/* a should equal 15.
-b should equal 26.
-c should equal 19.
-You should use the += operator for each variable.
-*/
 
-var a = 3;
-var b = 17;
-var c = 12;
+var a = 3; // initialize variable `a` with `3`
+var b = 17; // initialize variable `b` with `17`
+var c = 12; // initialize variable `c` with `12`
 
-a += 12;
-b += 9;
-c += 7;
+/**
+ * everything to right of `=` is operated first
+ * `+=` performs addition operation and assignment in one step
+ * for eg. a = a + 3; --> this can be represented as a += 3;
+ */
+a += 12; // increment `a` with `12` and assign back to `a`
+b += 9; // increment `b` with `9` and assign back to `b`
+c += 7; // increment `c` with `7` and assign back to `c`
 
-console.log(a);
-console.log(b);
-console.log(c);
+console.log(a); // `15`
+console.log(b); // `26`
+console.log(c); // `19`

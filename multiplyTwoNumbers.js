@@ -2,9 +2,6 @@
 
 // Basic JavaScript: Multiply Two Numbers with JavaScript
 
-/* The variable product should be equal to 80.
-You should use the * operator.
-*/
 
-var product = 8 * 10;
-console.log(product);
+var product = 8 * 10; // JS uses `*` operator for mutiplication of numbers
+console.log(product); // 80

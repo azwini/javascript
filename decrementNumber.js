@@ -2,11 +2,11 @@
 
 // Basic JavaScript: Decrement a Number with JavaScript
 
-/* myVar should equal 10.
-myVar = myVar - 1; should be changed.
-You should use the -- operator on myVar.
-*/
 
-var myVar = 11;
+var myVar = 11; // intialize `myVar` with `11`
 myVar--;
-console.log(myVar);
+/**
+ * `--` is decrement operator
+ * myVar-- is equal to --> myVar = myVar - 1;
+ */
+console.log(myVar); // `10`

@@ -2,11 +2,7 @@
 
 // Basic JavaScript: Finding a Remainder in JavaScript
 
-/* The variable remainder should be initialized
-The value of remainder should be 2
-You should use the % operator
-*/
 
-var remainder;
-remainder = 11 % 3;
-console.log(remainder);
+var remainder; // define variable
+remainder = 11 % 3; // `%` (modulus) operator gives the remainder when division operation done
+console.log(remainder); // `2`
