@@ -2,14 +2,14 @@
 
 // Basic JavaScript: Storing Values with the Assignment Operator
 
-/* a should have a value of 7.
-b should have a value of 7.
-Passed
-a should be assigned to b with = .
-*/
 
+// declare variable `a`
 var a;
+// declare variable `b`
 var b;
+// passing 7 to `a`
 a = 7;
+// assigning `b` with `a` value
 b = a;
-console.log(b);
+console.log(b); // prints `b` with value `7`
+console.log(a); // prints `a` with value `7`

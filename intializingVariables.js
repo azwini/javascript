@@ -2,8 +2,7 @@
 
 // Basic JavaScript: Initializing Variables with the Assignment Operator
 
-// You should initialize a to a value of 9.
 
-var a = 9;
+var a = 9; // initialize variable `a` with value `9`
 
-console.log(a);
+console.log(a); // gives output of value `9`

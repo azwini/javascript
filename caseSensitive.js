@@ -2,6 +2,10 @@
 
 // Basic JavaScript: Understanding Case Sensitivity in Variables
 
+
+/**
+ * Javascript is case sensitive and for clarity camelCase is preffered
+ */
 // Variable declarations
 var studlyCapVar;
 var properCamelCase;
