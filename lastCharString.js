@@ -3,8 +3,9 @@
 // Basic JavaScript: Use Bracket Notation to Find the Last Character in a String
 
 
-var lastName = "Lovelace";
+var lastName = "Lovelace"; // `lastName` is initiated with string `Lovelace`
 
-var lastLetterOfLastName = lastName[lastName.length - 1];
+// `.length - 1` gives the last letter of string
+var lastLetterOfLastName = lastName[lastName.length - 1]; // `lastLetterOfLastName` is assigned with last letter of `lastName`
 
-console.log(lastLetterOfLastName);
+console.log(lastLetterOfLastName); // `e`

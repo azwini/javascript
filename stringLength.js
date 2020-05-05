@@ -3,9 +3,10 @@
 // Basic JavaScript: Find the Length of a String
 
 
-var lastNameLength = 0;
-var lastName = "Lovelace";
+var lastNameLength = 0; // `lastNameLength` is initiated with `0`
+var lastName = "Lovelace"; // `lastName` is initiated with string value of `Lovelace`
 
-lastNameLength = lastName.length;
+// `.length` with string variable gives the lenght of the string
+lastNameLength = lastName.length; // `lastNameLength` is assigned with length of variable `lastName` that is `Lovelace`
 
-console.log(lastNameLength);
+console.log(lastNameLength); // 8

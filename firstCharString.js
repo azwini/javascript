@@ -2,10 +2,14 @@
 
 // Basic JavaScript: Use Bracket Notation to Find the First Character in a String
 
+/**
+ * `bracket notation` is used to get output of desired index
+ * index starts with count `0`
+ */
 
-var firstLetterOfLastName = "";
-var lastName = "Lovelace";
+var firstLetterOfLastName = ""; // `firstLetterOfLastName` is initiated with empty string
+var lastName = "Lovelace"; // `lastName` is initiated with string `Lovelace`
 
-firstLetterOfLastName = lastName[0];
+firstLetterOfLastName = lastName[0]; // `firstLetterOfLastName` is assigned with indeces `0` of `lastName`
 
-console.log(firstLetterOfLastName);
+console.log(firstLetterOfLastName); // `L`

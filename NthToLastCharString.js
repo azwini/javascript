@@ -3,8 +3,8 @@
 // Basic JavaScript: Use Bracket Notation to Find the Nth-to-Last Character in a String
 
 
-var lastName = "Lovelace";
+var lastName = "Lovelace"; // `lastName` is initiated with string `Lovelace`
 
-var secondToLastLetterOfLastName = lastName[lastName.length - 2];
+var secondToLastLetterOfLastName = lastName[lastName.length - 2]; // `.length - 2` gives the last but one of the string value
 
-console.log(secondToLastLetterOfLastName);
+console.log(secondToLastLetterOfLastName); // `c`

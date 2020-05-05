@@ -2,12 +2,10 @@
 
 // Basic JavaScript: Concatenating Strings with Plus Operator
 
-/* myStr should have a value of This is the start. This is the end.
-You should use the + operator to build myStr.
-myStr should be created using the var keyword.
-You should assign the result to the myStr variable.
-*/
+/**
+ * `concatenation` operator --> `+` when used with strings
+ */
 
 var myStr = "This is the start. " + "This is the end.";
 
-console.log(myStr);
+console.log(myStr); // This is the start. This is the end.

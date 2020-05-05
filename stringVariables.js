@@ -2,12 +2,10 @@
 
 // Basic JavaScript: Declare JavaScript Variables
 
-/* myFirstName should be a string with at least one character in it.
-myLastName should be a string with at least one character in it.
-*/
+// strings are represented in double quotes - ""
 
-var myFirstName = "abcd";
-var myLastName = "efgh";
+var myFirstName = "abcd"; // intialize variable `myFirstName` with string `abcd`
+var myLastName = "efgh"; // intialize variable `myLastName` with string `efgh`
 
-console.log(myFirstName);
-console.log(myLastName);
+console.log(myFirstName); // abcd
+console.log(myLastName); // efgh
