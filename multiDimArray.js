@@ -2,7 +2,7 @@
 
 // Basic JavaScript: Access Multi-Dimensional Arrays With Indexes
 
-
+// multiple arrays are passed within an array to form multi dimensional array
 var myArray = [
     [1, 2, 3],
     [4, 5, 6],
@@ -11,6 +11,11 @@ var myArray = [
         [10, 11, 12], 13, 14
     ]
 ]
-var myData = myArray[2][1];
+// in multi dimensional array, access of data starts with first entry level and follows the subsequent levels
+var myData = myArray[3];
+var myData1 = myArray[3][0];
+var myData2 = myArray[3][0][1];
 
-console.log(myData);
+console.log(myData); // `[[ 10, 11, 12 ], 13, 14]`
+console.log(myData1); // `[10, 11, 12]`
+console.log(myData2); // `11`

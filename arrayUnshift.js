@@ -2,14 +2,18 @@
 
 // Basic JavaScript: Manipulate Arrays With unshift()
 
-/*unshift --> acts like push but adds element to beginning of array.
-*/
+/**
+ * unshift --> acts like push but adds element to beginning of array.
+ */
 
 var myArray = [
     ["John", 23],
     ["dog", 3]
 ];
-myArray.shift();
+// myArray.shift();
+
+// `.unshift` operation on myArray
 myArray.unshift(["Paul", 35]);
 
+// [["Paul", 35], ["John", 23], ["dog", 3]]
 console.log(myArray);

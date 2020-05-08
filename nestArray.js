@@ -2,9 +2,7 @@
 
 // Basic JavaScript: Nest one Array within Another Array
 
-/* myArray should have at least one array nested within another array.
-*/
-
+// multiple arrays within an array can be passed
 var myArray = [["a", 2],["b",3]];
 
-console.log(myArray);
+console.log(myArray); // [['a', 2], ['b', 3]]

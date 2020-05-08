@@ -3,9 +3,7 @@
 // Basic JavaScript: Manipulate Arrays With pop()
 
 /**
- * pop --> removes last element.
- * myArray should only contain[["John", 23]].
- * You should use pop() on myArray.
+ * pop --> removes last element
  */
 
 // defining variable myArray
@@ -16,16 +14,17 @@ var myArray = [
     "123"
 ];
 
-// xyz, abc
-myArray.pop();
+// pop operation on myArray.
+// hence variable myArray after pop operation will have a value of ['xyz', 'abc']
+// myArray.pop();
 
 // xyz, abc, 123
-myArray.push("123")
+// myArray.push("123")
 
+// removedFromMyArray will display the removed item from myArray
 var removedFromMyArray = myArray.pop();
 
-// 123
-console.log(removedFromMyArray);
+console.log(removedFromMyArray); // `123`
 
 // xyz, abc
-console.log(myArray);
+// console.log(myArray);

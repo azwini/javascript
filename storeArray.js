@@ -2,11 +2,8 @@
 
 // Basic JavaScript: Store Multiple Values in one Variable using JavaScript Arrays
 
-/* myArray should be an array.
-The first item in myArray should be a string.
-The second item in myArray should be a number.
-*/
 
+// Array is set of data represented in square bracket and seperated by comma in between each
 var myArray = ["a", 2];
 
-console.log(myArray);
+console.log(myArray); // ['a', 2]
